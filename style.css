@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: hsl(50, 77%, 88%);
+  border: 3px solid hsl(31, 32%, 25%);
+  border-radius: 10px;
+  padding: 30px;
+  gap: 10px;
+}
+
+#input-field {
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.5em;
+  padding: 5px 10px;
+  border: 3px solid hsl(33, 35%, 30%);
+  border-radius: 5px;
+}
+
+#btn-components {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+#numbers {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#numbers > div {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+#operator {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+#operator > div {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.btn-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: hsl(48, 48%, 92%); 
+  border: 3px solid hsl(33, 35%, 30%);
+  border-radius: 8px;
+  color: hsl(33, 33%, 21%);;
+}
+
+.btn-style:not(.signature) {
+  height: 50px;
+  width: 50px;
+  font-size: 1.5em;
+}
+
+.signature {
+  width: 105px;
+  height: 35px;
+  font-size: 0.75em;
+  margin: 10px 0px 10px 0px;
+}

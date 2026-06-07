@@ -4,8 +4,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Caculator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
+  <div id="container">
+    <div>
+      <input type="text" id="input-field" readonly>
+    </div>
+    
+    <div id="btn-components">
+      <div id="numbers">
+        <div>
+          <button id="one" onclick="btn1()" class="btn-style">1</button>
+          <button id="two" onclick="btn2()" class="btn-style">2</button>
+          <button id="three" onclick="btn3()" class="btn-style">3</button>
+        </div>
+        <div>
+          <button id="four" onclick="btn4()" class="btn-style">4</button>
+          <button id="five" onclick="btn5()" class="btn-style">5</button>
+          <button id="six" onclick="btn6()" class="btn-style">6</button>
+        </div>
+        <div>
+          <button id="seven" onclick="btn7()" class="btn-style">7</button>
+          <button id="eight" onclick="btn8()" class="btn-style">8</button>
+          <button id="nine" onclick="btn9()" class="btn-style">9</button>
+        </div>
+        <div>
+          <button id="point" onclick="btnPoint()" class="btn-style">.</button>
+          <button id="zero" onclick="btn0()" class="btn-style">0</button>
+          <button onclick="delBtn()" class="btn-style">DEL</button>
+        </div>
+    
+      </div>
+
+      <div id="operator">
+        <div>
+          <button onclick="clrAll()" class="btn-style">AC</button>
+          <button onclick="getResult()" class="btn-style">=</button>
+        </div>
+        <div>
+          <button onclick="addOp()" class="btn-style">+</button>
+          <button onclick="minusOp()" class="btn-style">-</button>
+        </div>
+        <div>
+          <button onclick="multiplyOp()" class="btn-style">x</button>
+          <button onclick="divideOp()" class="btn-style">/</button>
+        </div>
+        
+        <button onclick="getLink()" class="btn-style signature">made by igrixe</button>
+        
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <script src="script.js"></script>
   
 </body>
 </html>
