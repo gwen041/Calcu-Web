@@ -109,5 +109,5 @@ function getLink() {
 }
 
 function inputLimit() {
-  return input.value.length >= 14;
+  return input.value.length >= 14; 
 }
