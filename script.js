@@ -107,7 +107,7 @@ function compute() {
 function getLink() {
   window.open('https://github.com/gwen041', '_blank');
 }
-
+ 
 function inputLimit() {
   return input.value.length >= 14;
 }
